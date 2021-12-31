@@ -18,7 +18,7 @@ while (loopstatus <= x):
         end = time.time()
         printer = True
         print(printer)
-        print(start - end)
+        print(end - start)
         loopstatus = loopstatus + 1
 
     elif (randomvar == 1):
